@@ -9,10 +9,12 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <NavBar/>
+        <NavBar/>  
+      </header>
+      <div className="App-body">
         <Jumbo/>
         <CardDeck/>
-      </header>
+      </div>
     </div>
   );
 }
