@@ -4,6 +4,7 @@ import './App.css';
 import CardDeck from './CardDeck';
 import NavBar from './NavBar';
 import Jumbo from './Jumbo';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -15,6 +16,9 @@ function App() {
         <Jumbo/>
         <CardDeck/>
       </div>
+      <footer className="App-footer">
+        <Footer/>
+      </footer>
     </div>
   );
 }
